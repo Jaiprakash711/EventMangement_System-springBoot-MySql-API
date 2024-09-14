@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "72c1b810-ccd5-4c5f-9809-ce6397b0c205",
+		"name": "ApiLogs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37484809"
+	},
+	"item": [
+		{
+			"name": "logs sample",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/logs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"logs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
